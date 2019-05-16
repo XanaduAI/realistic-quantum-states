@@ -299,7 +299,7 @@ def plot(fid, prob, wln, filename, cmap="Greens"):
     ax[2].set_xlabel(r"$\eta_2$")
 
     plt.tight_layout(rect=[0, 0.03, 1, 0.8])
-    plt.savefig(filename[:-4] + ".pdf")
+    plt.savefig(filename)
 
 
 if __name__ == "__main__":
