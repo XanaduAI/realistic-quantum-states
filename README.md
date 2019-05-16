@@ -12,12 +12,12 @@ parameter space for three specific non-Gaussian state preparation schemes. Each 
 contour plots of the resulting fidelity, Wigner Log Negativity, and probability as a function
 of heralding and heralded loss.
 
-* `cubic_phase.py`: explores the loss parameter space of a heralded weak cubic phase state,
-  as first determined in [arXiv:1809.04680](https://arxiv.org/abs/1809.04680).
-
 * `fock.py`: explores the loss parameter space of a heralded single photon state.
 
 * `cat_state.py`: explores the loss parameter space of a heralded cat state.
+
+* `cubic_phase.py`: explores the loss parameter space of a heralded weak cubic phase state,
+  as given in [arXiv:1809.04680](https://arxiv.org/abs/1809.04680).
 
 
 ## Requirements
@@ -43,7 +43,7 @@ Strawberry Fields, please cite the following three papers:
 
 > Nicolás Quesada, Luke Helt, Josh Izaac, Juan Miguel Arrazola, Rahaneh Shahrokhshahi,
 Casey Myers, and Krishna Kumar Sabapathy. "Simulating realistic non-Gaussian state preparation",
-> arXiv, 2019. arxiv:1805.12498
+> arXiv, 2019. arxiv:TODO
 
 > Andreas Björklund, Brajesh Gupt, and Nicolás Quesada. "A faster hafnian formula
 > for complex matrices and its benchmarking on the Titan supercomputer", arXiv, 2018.
