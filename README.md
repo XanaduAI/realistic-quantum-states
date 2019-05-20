@@ -1,6 +1,6 @@
 # Simulating realistic quantum states
 
-#### Simulating non-Gaussian quantum state preparation with loss via the [fastest known classical method to calculate loop hafnians](https://github.com/XanaduAI/hafnian).
+> Simulating non-Gaussian quantum state preparation with loss via the [fastest known classical method to calculate loop hafnians](https://github.com/XanaduAI/hafnian).
 
 This repository contains the source code used to produce the results presented in
 *"Simulating realistic non-Gaussian state preparation"* [arXiv:1905.07011](https://arxiv.org/abs/1905.07011).
