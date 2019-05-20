@@ -3,7 +3,7 @@
 #### Simulating non-Gaussian quantum state preparation with loss via the [fastest known classical method to calculate loop hafnians](https://github.com/XanaduAI/hafnian).
 
 This repository contains the source code used to produce the results presented in
-*"Simulating realistic non-Gaussian state preparation"* [arXiv:todo](https://arxiv.org/abs/1809.04680).
+*"Simulating realistic non-Gaussian state preparation"* [arXiv:1905.07011](https://arxiv.org/abs/1905.07011).
 
 ## Contents
 
@@ -43,11 +43,11 @@ Strawberry Fields, please cite the following three papers:
 
 > Nicolás Quesada, Luke Helt, Josh Izaac, Juan Miguel Arrazola, Rahaneh Shahrokhshahi,
 Casey Myers, and Krishna Kumar Sabapathy. "Simulating realistic non-Gaussian state preparation",
-> arXiv, 2019. arxiv:TODO
+> arXiv, 2019. arXiv:1905.07011
 
 > Andreas Björklund, Brajesh Gupt, and Nicolás Quesada. "A faster hafnian formula
 > for complex matrices and its benchmarking on the Titan supercomputer", arXiv, 2018.
-> arxiv:1805.12498
+> arXiv:1805.12498
 
 > Nathan Killoran, Josh Izaac, Nicolás Quesada, Ville Bergholm, Matthew Amy, and
 > Christian Weedbrook. "Strawberry Fields: A Software Platform for Photonic Quantum Computing",
