@@ -7,22 +7,15 @@ This repository contains the source code used to produce the results presented i
 
 ## Contents
 
-The following three scripts use the loop hafnian algorithm to explore the loss
-parameter space for three specific non-Gaussian state preparation schemes. Each script generates
+The included script `cubic_phase.py` uses the loop hafnian algorithm to explore the loss
+parameter space of a heralded weak cubic phase state, as given in
+[arXiv:1809.04680](https://arxiv.org/abs/1809.04680). The script generates
 contour plots of the resulting fidelity, Wigner Log Negativity, and probability as a function
 of heralding and heralded loss.
 
-* `fock.py`: explores the loss parameter space of a heralded single photon state.
-
-* `cat_state.py`: explores the loss parameter space of a heralded cat state.
-
-* `cubic_phase.py`: explores the loss parameter space of a heralded weak cubic phase state,
-  as given in [arXiv:1809.04680](https://arxiv.org/abs/1809.04680).
-
-
 ## Requirements
 
-To perform the quantum state preparation and parameter search, these scripts use the
+To perform the quantum state preparation and parameter search, the script uses the
 Gaussian backend of [Strawberry Fields](https://github.com/XanaduAI/strawberryfields).
 In addition, the `hafnian` library is required for efficient computation of loop hafnians,
 and `matplotlib` for graph generation.
