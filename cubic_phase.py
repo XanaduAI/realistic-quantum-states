@@ -32,7 +32,7 @@ def cubic_phase_state(a, cutoff):
     |psi> = |0> + i*sqrt(3/2)*a|1> + a*i|3>
 
     Args:
-        a (float): the ON state parameter
+        a (float): the cubic phase state parameter state parameter
         cutoff (int): the Fock basis truncation
 
     Returns:
