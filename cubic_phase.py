@@ -138,8 +138,9 @@ def circuit(cutoff, l1=0.85, l2=1):
     bs_phi1, bs_phi2, bs_phi3 = [0.53, -4.51, 0.72]
 
     # quantum circuit prior to entering the beamsplitter
-    eng, q = sf.Engine(3)
-    with eng:
+    prog = sf.Program(3)
+
+    with prog.context as q:
         for k in range(3):
             ops.Sgate(sq_r[k], sq_phi[k]) | q[k]
             ops.Dgate(d_r[k]) | q[k]
@@ -151,7 +152,8 @@ def circuit(cutoff, l1=0.85, l2=1):
         ops.LossChannel(l2) | q[0]
         ops.LossChannel(l2) | q[1]
 
-    state = eng.run("gaussian", cutoff_dim=cutoff)
+    eng = sf.Engine("gaussian")
+    state = eng.run(prog).state
     mu = state.means()
     cov = state.cov()
 
