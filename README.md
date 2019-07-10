@@ -20,13 +20,10 @@ Gaussian backend of [Strawberry Fields](https://github.com/XanaduAI/strawberryfi
 In addition, the `hafnian` library is required for efficient computation of loop hafnians,
 and `matplotlib` for graph generation.
 
-**Due to subsequent interface upgrades, the scripts in this repository work only with Strawberry Fields version <= 0.10.0 
-and Hafnian version <=0.1.2.**
-
 All of these prerequisites can be installed via `pip`:
 
 ```bash
-pip install strawberryfields==0.10 hafnian=0.1.2 matplotlib
+pip install strawberryfields hafnian matplotlib
 ```
 
 ## Authors
