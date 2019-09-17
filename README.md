@@ -36,8 +36,7 @@ Strawberry Fields, please cite the following three papers:
 
 > Nicolás Quesada, Luke Helt, Josh Izaac, Juan Miguel Arrazola, Rahaneh Shahrokhshahi,
 Casey Myers, and Krishna Kumar Sabapathy. "Simulating realistic non-Gaussian state preparation",
-[Phys. Rev. A *100*, 022341 (2019)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.022341). The script generates
-> 
+[Phys. Rev. A *100*, 022341 (2019)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.022341). 
 
 > Andreas Björklund, Brajesh Gupt, and Nicolás Quesada. "A faster hafnian formula
 > for complex matrices and its benchmarking on the Titan supercomputer", [Journal of Experimental Algorithmics (JEA) 24.1 (2019): 11](https://doi.org/10.1145/3325111).
