@@ -23,7 +23,7 @@ from matplotlib import pyplot as plt
 import strawberryfields as sf
 from strawberryfields import ops
 
-from hafnian.quantum import density_matrix
+from thewalrus.quantum import density_matrix
 
 
 def cubic_phase_state(a, cutoff):
